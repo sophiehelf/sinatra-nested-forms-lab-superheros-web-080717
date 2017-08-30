@@ -1,3 +1,22 @@
+<!DOCTYPE html>
+<head>
+	<title>help me</title>
+</head>
+
+<body>
+	<h1><%= @team_hash[:name] %></h1>
+	<h2>Team Motto: <%=@team_hash[:motto]%></h2>
+
+	<h2>Hero Name: <%=@team_hash[:hero][0][:name]%></h2>
+	<h2>Hero Power: <%=@team_hash[:hero][0][:power]%><h2>
+	<h2>Hero Biography: <%=@team_hash[:hero][0][:bio]%><h2>
+	<h2>Hero Name: <%=@team_hash[:hero][1][:name]%></h2>
+	<h2>Hero Power: <%=@team_hash[:hero][1][:power]%></h2>
+	<h2>Hero Biography: <%=@team_hash[:hero][1][:bio]%><h2>
+	<h2>Hero Name: <%=@team_hash[:hero][2][:name]%></h2>
+	<h2>Hero Power: <%=@team_hash[:hero][2][:power]%></h2>
+	<h2>Hero Biography: <%=@team_hash[:hero][2][:bio]%><h2>
+</body>
 
 
 
